@@ -3330,7 +3330,7 @@ case 'music': case 'play': case 'song': case 'ytplay': {
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `「  _Miku Youtube Player 2.0_  」
+ caption: `「  _NASS-WORKS Youtube Player 3.0_  」
 
 *Title :* ${anu.title}
 
@@ -3397,7 +3397,7 @@ case 'music': case 'play': case 'song': case 'ytplay': {
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `「  _Miku Youtube Downloader 2.0_  」
+ caption: `「  _NASS-WORKSYoutube Downloader 3.0_  」
 
 *Title :* ${anu.title}
 
@@ -4738,9 +4738,9 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
- const helpmenu = `Konichiwa *${pushname}* Senpai,
+ const helpmenu = `HELLO *${pushname}* Dear!...,
 
-I am *Miku Nakano*, a bot developed by *Fantox*.
+I am *NASS-WORKS*, a bot developed by *NASS*.
 
 🔰 My prefix is:  ${prefix}
 
@@ -4814,7 +4814,7 @@ qr, say, translate, fliptext, toletter, weather
 
 
  『  *${global.BotName}*  』
- Powered by: *Fantox*
+ Powered by: *NASS*
 
  🔰 To use any of these commands type 
  " *${prefix}<Command name>* ".
@@ -4870,7 +4870,7 @@ case 'miku':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `Do you love Miku? Then we are the same.`
+const txt = `Do you love NASS-WORKS? Then we are the same.`
 const mikuarray= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/miku-nakano-nakano-miku.mp4",
